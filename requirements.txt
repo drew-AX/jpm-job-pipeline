@@ -1,0 +1,4 @@
+playwright
+anthropic
+python-dotenv
+# firecrawl-py  # uncomment if a source needs it instead of Playwright
