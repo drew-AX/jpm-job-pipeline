@@ -12,6 +12,22 @@ playwright install chromium
 cp .env.example .env   # then fill in your API keys
 ```
 
+## Claude Code plugin setup (one-time, per machine)
+
+This project's `plan.md` assumes two Claude Code plugins are installed. Run
+these once inside a `claude` session (any directory):
+
+```
+/plugin marketplace add anthropics/claude-plugins-official
+/plugin install superpowers@claude-plugins-official
+
+/plugin marketplace add DietrichGebert/ponytail
+/plugin install ponytail@ponytail
+```
+
+Plugins are installed per-machine, not per-repo — this doesn't come from
+cloning the repo, you have to run it yourself once.
+
 ## Getting started with Claude Code
 
 Open a terminal in this folder and run `claude`, then say:

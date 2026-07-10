@@ -12,11 +12,10 @@ machine.
 The human using this repo is new to programming and to Claude Code. For each
 stage below:
 
-1. **Ask before building.** Use a brainstorming/interview approach (if the
-   `superpowers` plugin is installed, use its `brainstorming` skill) — walk
-   through the open questions for that stage with the human, one at a time,
-   before writing any code. Don't assume an answer just because it's the
-   common default.
+1. **Ask before building.** Use the `superpowers:brainstorming` skill (see
+   README for plugin setup) — walk through the open questions for that
+   stage with the human, one at a time, before writing any code. Don't
+   assume an answer just because it's the common default.
 2. **Explain the "why," not just the "what."** When you make a technical
    recommendation, give the one-sentence reason, especially where a simpler
    option (stdlib, no dependency, plain CSV) is being passed over.
